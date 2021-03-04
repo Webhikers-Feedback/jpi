@@ -132,5 +132,5 @@ I really love the fact that you're using the Element Block Modifier System for y
 Since we need to include some of your apps, into our own shop app, we need to ensure compatibility.
 
 1. Please make sure that all `<style></style>` tags you write are always `scoped`. You already did it so far, which is great! This is just a short notification, that it's very important to keep this convention.
-2. There is only one css rule that is not only allowed, but required to be set globally (without scoping), which is the font-family. So pleas declare the font family for all headings and body globally in a global.css file.
-This way, you can prevent yourself from redeclaring the font family everytime in your css and also you make you site campatible with our systems. Please note that nothing else is allowed to be declared globally.
+2. There is only one css rule that is not only allowed, but **required** to be set globally (without scoping), which is the font-family. So pleas declare the font family for all headings and body globally in a global.css file.
+This way, you can prevent yourself from redeclaring the font family everytime in your css and also you make your site campatible with our systems. Please note that nothing else is allowed to be declared globally.
