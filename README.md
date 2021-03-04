@@ -22,7 +22,7 @@ instead of this:
       color: map-get($colors, white);
     }
   }
-  </style>
+</style>
 ```
 
 You can now use the bootstrap scss variable (and all other bootstrap variables)
@@ -34,7 +34,7 @@ You can now use the bootstrap scss variable (and all other bootstrap variables)
       color: $white;
     }
   }
-  </style>
+</style>
 ```
 
 In the above short tutorial you will also find how you can overwrite bootstrap variables.
