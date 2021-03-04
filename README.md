@@ -56,7 +56,7 @@ Of course, we also want to use the bootstrap media queries and therefore there i
 
 In your `@/components/Homepage/Banner.vue
 
-So, instead if this:
+So, instead of this:
 ```vue
 <style lang="scss" scoped>
   .content {
@@ -88,7 +88,7 @@ To keep the responsive code clean and readable, please create a complete new css
 
 In your `@/components/Homepage/Banner.vue
 
-So, instead if this:
+So, instead of this:
 ```vue
 <style lang="scss" scoped>
   .content {
