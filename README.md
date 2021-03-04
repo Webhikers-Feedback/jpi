@@ -48,7 +48,8 @@ In the above short tutorial you will also find how you can overwrite bootstrap v
 We found, that it keeps the code simplest and cleanest if we do mobile-first apps. 
 That means, you can write all code as you need it just for mobile and do not put it into any media query. And everything that needs to be different on desktop, you can put into a desktop media query.
 
-**Please use the bootstrap colums to make it responsive for desktop, tablet and mobile, but write extra css ONLY FOR DESKTOP**
+**Please use the bootstrap colums to make it responsive for desktop, tablet and mobile, but write extra css ONLY FOR DESKTOP.**
+
 You can write CSS just so it looks good on mobile and then add extra css for desktop. No need to write extra css for tablet. Please use Iphone SE in the chrome devtools as the smallest breakpoint.
 
 Of course, we also want to use the bootstrap media queries and therefore there is a very hand scss mixin from bootstrap `@include media-breakpoint-up(lg)`
