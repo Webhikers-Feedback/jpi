@@ -52,7 +52,7 @@ That means, you can write all code as you need it just for mobile and do not put
 
 You can write CSS just so it looks good on mobile and then add extra css for desktop. No need to write extra css for tablet. Please use Iphone SE in the chrome devtools as the smallest breakpoint.
 
-Of course, we also want to use the bootstrap media queries and therefore there is a very hand scss mixin from bootstrap `@include media-breakpoint-up(lg)`
+Of course, we also want to use the bootstrap media queries and therefore there is a very handy scss mixin from bootstrap `@include media-breakpoint-up(lg)`
 
 In your `@/components/Homepage/Banner.vue
 
