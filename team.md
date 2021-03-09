@@ -11,8 +11,8 @@ In the page file:
   export default{
     asyncData:async function({$apiService}){
       //you actually don't need to provide the full url here, asuming you've setup the api base_url for axios in nuxt.config.js
-      var page = await $apiService.get('/page/<page-id>').then(res=>{return res.data})
-      var teams = await $apiService.get('/team').then(res=>{return res.data})
+      var page = await $apiService.get('/wp/v2/page/<page-id>').then(res=>{return res.data})
+      var teams = await $apiService.get('/wp/v2/team').then(res=>{return res.data})
     }
   }
 </script>
